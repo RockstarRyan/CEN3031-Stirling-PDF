@@ -309,11 +309,16 @@ span.icon-text::after {
   display: inline-flex;
 }
 
+.search-results {
+  height: auto;
+}
+
 @media (min-width:992px) {
   .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
   }
+
   .icon-hide {
     display: none;
   }
